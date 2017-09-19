@@ -1,0 +1,121 @@
+/*
+
+
+	ways to set color in css
+
+		hexadecimal
+			#ff0000
+		rgb
+			rgb(0,0,255)
+		rgba(0,0,255,0.6)
+
+*/
+
+/*
+ *	TABLE OF CONTENTS
+ *		$page-nav$
+ *		$page-nav-links$
+ */
+
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: #666;
+    max-width: 800px;
+    margin: 30px auto;
+    border: 5px solid #aaa;
+    padding: 50px;
+    color: white;
+    font-family: Helvetica;
+    font: 1rem/1.5rem Helvetica, Arial;
+}
+
+.title {
+	text-align: center;
+	margin: 0;
+	font-size: 3rem;
+	font-style: italic;
+	font-weight: 100;
+	margin-bottom: 1rem;
+}
+
+/*
+ * $page-nav$ styles 
+ */
+
+.page-nav {
+	padding: 1rem 0;
+	text-align: center;
+	border-bottom: 3px solid #aaa;
+	margin-bottom: 2rem;
+}
+
+.page-nav-top-border {
+	border-bottom: 0;
+	border-top: 3px solid #aaa;
+}
+
+/*
+ * $page-nav-link$ styles 
+ */
+
+.page-nav-link {
+	font-weight: 800;
+	color: rgb(0, 185, 100);
+	font-size: 1.25rem;
+	border-right: 2px solid #aaa;
+    padding: 0 1rem;
+    transition: color 0.3s;
+}
+
+.page-nav-link:hover,
+.page-nav-link-active {
+	color: white;
+	text-decoration: none;
+}
+
+.page-nav-link-active {
+	pointer-events: none;
+}
+
+.page-nav-link:last-child {
+	border-right: none;
+}
+
+/*.page-nav-link-last {
+	border-right: none;
+}*/
+
+
+
+/*
+ *	$content$
+ */
+
+.content-img {
+	border: 1px solid #aaa;
+	padding: 0.5rem;
+	margin: 0.5rem;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
